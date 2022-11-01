@@ -32,7 +32,7 @@ print("""
 
 print("\033[0;91mThis Tool's Make By :MD. RABBI [INCEPTION]")
 
-psb('\x1b[1;92mBangladesh 6 Digit Cloning Start please Wait__This Tool's Make By :MD. RABBI [INCEPTION]')
+psb('\x1b[1;92mBangladesh 6 Digit Cloning Start please Wait__This Tools Make By :MD. RABBI [INCEPTION]")
 psb('\x1b[1;92m                     Assalamualaikum')
 psb('\x1b[1;92mREMEMBER ALLAH WATCHING YOU __ please amar jonno dowa korbaen......')
 for n in range(90000):
