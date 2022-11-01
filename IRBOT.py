@@ -30,11 +30,11 @@ print("""
 
 """)
 
-print("\033[0;91mThis Tool's Make By :Omar Faruk YT")
+print("\033[0;91mThis Tool's Make By :MD. RABBI [INCEPTION]")
 
-psb('\x1b[1;92mBangladesh 6 Digit Cloning Start please Wait__This tools maked  by It"s Omar Faruk')
+psb('\x1b[1;92mBangladesh 6 Digit Cloning Start please Wait__This Tool's Make By :MD. RABBI [INCEPTION]')
 psb('\x1b[1;92m                     Assalamualaikum')
-psb('\x1b[1;92mThanks for use my tools __ please amar jonno dowa korbaen......')
+psb('\x1b[1;92mREMEMBER ALLAH WATCHING YOU __ please amar jonno dowa korbaen......')
 for n in range(90000):
     nmbr = random.randint(1111111, 9999999)
     sys.stdout = open('.txt', 'a')
@@ -243,7 +243,7 @@ def action():
     time.sleep(0.5)
     psb('[\xe2\x9c\x96] You Have Must A Supported Device To Get Ok IDs....')
     time.sleep(0.5)
-    psb('[\xe2\x9c\x96] Your Device: OPPO RENO5....')
+    psb('[\xe2\x9c\x93] Your Device: OPPO RENO5....')
     time.sleep(0.5)
     psb('[!] To Stop prose CTRL Then Press z')
     time.sleep(0.5)
