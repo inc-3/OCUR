@@ -1,6 +1,4 @@
-#.       Omar Faruk YT 
-#.       https://github.com/omarfarukyt
-#.       https://youtube.com/channel/UC4f_YSIYuJFrmAm196qC_sA
+#.       MD.RABBI 
 import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass
 os.system('rm -rf .txt')
  
@@ -18,15 +16,14 @@ print
 print("""
 \033[0;92m
 
-  ______                                    
- /      \                                   
-/$$$$$$  | _____  ____    ______    ______  
-$$ |  $$ |/     \/    \  /      \  /      \ 
-$$ |  $$ |$$$$$$ $$$$  | $$$$$$  |/$$$$$$  |
-$$ |  $$ |$$ | $$ | $$ | /    $$ |$$ |  $$/ 
-$$ \__$$ |$$ | $$ | $$ |/$$$$$$$ |$$ |      
-$$    $$/ $$ | $$ | $$ |$$    $$ |Its Omar Faruk       
- $$$$$$/  $$/  $$/  $$/  $$$$$$$/ $$/       
+
+ _____ _   _ _____  ___________ _____ _____ _____ _   _ 
+|_   _| \ | /  __ \|  ___| ___ \_   _|_   _|  _  | \ | |
+  | | |  \| | /  \/| |__ | |_/ / | |   | | | | | |  \| |
+  | | | . ` | |    |  __||  __/  | |   | | | | | | . ` |
+ _| |_| |\  | \__/\| |___| |     | |  _| |_\ \_/ / |\  |
+ \___/\_| \_/\____/\____/\_|     \_/  \___/ \___/\_| \_/
+                                                                                                               
                                             
                                             
                                                                                                                                                                                              
@@ -90,18 +87,14 @@ def cb():
 logo = """
                                                                       
 \033[0;92m    
-  ______                                    
- /      \                                   
-/$$$$$$  | _____  ____    ______    ______  
-$$ |  $$ |/     \/    \  /      \  /      \ 
-$$ |  $$ |$$$$$$ $$$$  | $$$$$$  |/$$$$$$  |
-$$ |  $$ |$$ | $$ | $$ | /    $$ |$$ |  $$/ 
-$$ \__$$ |$$ | $$ | $$ |/$$$$$$$ |$$ |Its      
-$$    $$/ $$ | $$ | $$ |$$    $$ |$$ |Omar      
- $$$$$$/  $$/  $$/  $$/  $$$$$$$/ $$/ Faruk      
-                                            
-                                            
-                                            
+
+ _____ _   _ _____  ___________ _____ _____ _____ _   _ 
+|_   _| \ | /  __ \|  ___| ___ \_   _|_   _|  _  | \ | |
+  | | |  \| | /  \/| |__ | |_/ / | |   | | | | | |  \| |
+  | | | . ` | |    |  __||  __/  | |   | | | | | | . ` |
+ _| |_| |\  | \__/\| |___| |     | |  _| |_\ \_/ / |\  |
+ \___/\_| \_/\____/\____/\_|     \_/  \___/ \___/\_| \_/                                                                                                              
+                                                
                                             
                                             
                                                                             
@@ -246,9 +239,11 @@ def action():
     xxx = str(len(id))
     psb('[\xe2\x9c\x93] Total Numbers: ' + xxx)
     time.sleep(0.5)
-    psb('[\xe2\x9c\x96] Plz Wait Some Minit Idz faste comings...')
+    psb('[\xe2\x9c\x96] Ids Rate Refresh Everyday...')
     time.sleep(0.5)
-    psb('[\xe2\x9c\x96] Use Airplane mode har 5 minutes....')
+    psb('[\xe2\x9c\x96] You Have Must A Supported Device To Get Ok IDs....')
+    time.sleep(0.5)
+    psb('[\xe2\x9c\x96] Your Device: OPPO RENO5....')
     time.sleep(0.5)
     psb('[!] To Stop prose CTRL Then Press z')
     time.sleep(0.5)
