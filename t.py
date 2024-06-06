@@ -1,2 +1,2 @@
-git pull
-python IRBOT.py
+import os
+os.system('gitt pull')
