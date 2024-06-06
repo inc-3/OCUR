@@ -1,4 +1,3 @@
-#original code write by INCEPTION
 import os
 import sys
 import re
@@ -58,6 +57,10 @@ def filter_bangladeshi_names(data):
             print(f"Ignoring line: {entry} (Does not contain expected format)")
     return filtered_data
 
+# Function to remove duplicate lines
+def remove_duplicate_lines(data):
+    return list(set(data))
+
 # Function to save filtered data to a text file
 def save_filtered_data(filtered_data, output_file_path):
     with open(output_file_path, 'w') as file:
@@ -74,6 +77,7 @@ def main():
     clear()  # Clear the screen and print the logo
     file_path = input_file_path()
     data = read_data_from_file(file_path)
+    data = remove_duplicate_lines(data)
     filtered_data = filter_bangladeshi_names(data)
     output_file_path = input("Enter the path to save the filtered data: ").strip()
     save_filtered_data(filtered_data, output_file_path)
