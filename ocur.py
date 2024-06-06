@@ -77,8 +77,8 @@ def main():
     clear()  # Clear the screen and print the logo
     file_path = input_file_path()
     data = read_data_from_file(file_path)
-    data = remove_duplicate_lines(data)
     filtered_data = filter_bangladeshi_names(data)
+    filtered_data = remove_duplicate_lines(filtered_data)
     output_file_path = input("Enter the path to save the filtered data: ").strip()
     save_filtered_data(filtered_data, output_file_path)
     print("Filtered data saved successfully!")
