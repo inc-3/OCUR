@@ -1,4 +1,5 @@
 import os
+import sys
 import re
 import bs4
 from bs4 import BeautifulSoup
@@ -28,7 +29,10 @@ sys.stdout.write('\x1b]2; NIROB~XD \x07')
 line=f"{BLUE}━"*40
 X=f"{GREEN}[\33[1;91m~{GREEN}]"
 def linex():print(line)
+def clear():os.system("clear");print(logo)   
+def linex():print(line)
 def clear():os.system("clear");print(logo)
+    
 # Function to read data from a file
 def read_data_from_file(file_path):
     with open(file_path, 'r') as file:
