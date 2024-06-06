@@ -65,8 +65,8 @@ def save_filtered_data(filtered_data, output_file_path):
 
 # Main function
 def main():
-    sys.stdout.write('\x1b]2; NIROB~XD \x07')
-    line = f"{BLUE}━" * 40
+    sys.stdout.write('\x1b]2; INCEPTION \x07')
+    line = f"{WHITE}━" * 40
     X = f"{GREEN}[\33[1;91m~{GREEN}]"
     def linex(): print(line)
     def clear(): os.system("clear"); print(logo)
