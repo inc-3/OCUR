@@ -33,6 +33,24 @@ common_bangladeshi_names = {
     "Alifa", "Afifa", "Afsana", "Tithi", "Tumpa", "Sarika", "Munia", "Samira",
     "Moriom", "Tanjina", "Shukria", "Rifa", "Rabeya", "Tahmina", "Jahanara", "Ayesha", "Fatima",
     "Mariam", "Nasrin", "Sabina", "Taslima", "Farzana", "Sharmin", "Rehana", "Suraiya", "Shahnaz",
-    "Shahana", "Nusrat", "Sumaiya", "Shabnam", "Md", "Jannat", "Nusrat", "Jahan", "Sex", "Ewr"
+    "Shahana", "Nusrat", "Sumaiya", "Shabnam", "Md", "Jannat", "Nusrat", "Jahan", "Sex", "Ewr", "Ahmed", "Ali", "Akhtar", "Aktar", "Alam", "Azad", "Begum", "Talukdar", "Uddin", "Yusuf", "Molla", "Islam", "Rahman", "Hossain", "Khatun", "Haque", "Dewan", "Siddiqui", "Karim", "Banu", "Tasnim", "Nasrin",
+    "Afroza", "Jahan", "Parvin", "Fatima", "Rima", "Sharmin", "Akhtar", "Chowdhury", "Yasmeen",
+    "Rahman", "Ali", "Khatoon", "Yasmin", "Khanum", "Laila", "Hossain", "Munira", "Shahida", "Sultana",
+    "Jahanara", "Farzana", "Kohinoor", "Nahar", "Choudhury", "Nasima", "Islam", "Begum", "Khadiza",
+    "Hasina", "Ferdous", "Shaheda", "Nusrat", "Safa", "Monira", "Sayeda", "Najnin", "Soma", "Ummay",
+    "Rumana", "Jesmin", "Firoza", "Shanta", "Suraiya", "Fahmida", "Akter", "Moriom", "Rehana", "Nargis",
+    "Rokeya", "Afroza", "Mahbuba", "Sarmin", "Anjum", "Sultana", "Anwara", "Hashi", "Bilkis", "Rubina",
+    "Morsheda", "Zohra", "Jannat", "Ferdousi", "Khurshida", "Manira", "Arifa", "Aklima", "Moushumi",
+    "Munni", "Shathi", "Tania", "Sohana", "Labiba", "Rina", "Ayesha", "Nasrin", "Rani", "Anisa", "Tarannum",
+    "Nahid", "Rahman", "Ali", "Khan", "Ahmed", "Hussain", "Islam", "Chowdhury", "Hossain", "Uddin", "Miah",
+    "Akhtar", "Siddiqui", "Karim", "Mia", "Chowdhury", "Hasan", "Ahmed", "Haque", "Khanam", "Akter",
+    "Sardar", "Sarker", "Mia", "Rashid", "Farooqi", "Hussain", "Shah", "Chowdhury", "Reza", "Chowdhury",
+    "Kabir", "Alam", "Nasir", "Islam", "Chowdhury", "Ali", "Siddique", "Chowdhury", "Mahmood", "Rahman",
+    "Ali", "Ahmed", "Khan", "Hasan", "Hossain", "Islam", "Chowdhury", "Hussain", "Uddin", "Miah",
+    "Akhtar", "Siddiqui", "Karim", "Mia", "Chowdhury", "Ahmed", "Haque", "Khanam", "Akter", "Sardar",
+    "Sarker", "Mia", "Rashid", "Farooqi", "Hussain", "Shah", "Chowdhury", "Reza", "Chowdhury", "Kabir",
+    "Alam", "Nasir", "Islam", "Chowdhury", "Ali", "Siddique", "Chowdhury", "Mahmood", "Rahman", "Ali",
+    "Ahmed", "Khan", "Hasan", "Hossain", "Islam", "Chowdhury", "Hussain", "Uddin", "Miah", "Akhtar",
+    "Siddiqui", "Karim", "Mia", "Chowdhury", "Ahmed", "Haque", "Khanam", "Akter", "Sardar", "Sarker"
     # Add more common names as needed
 }
