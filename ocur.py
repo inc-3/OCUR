@@ -71,6 +71,7 @@ def main():
     X = f"{WHITE}[\33[1;91m~{WHITE}]"
     def linex(): print(line)
     def clear(): os.system("clear"); print(logo)
+    clear()  # Clear the screen and print the logo
     file_path = input_file_path()
     data = read_data_from_file(file_path)
     filtered_data = filter_bangladeshi_names(data)
