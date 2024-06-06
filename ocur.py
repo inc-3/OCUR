@@ -65,9 +65,9 @@ def remove_duplicate_lines(data):
 def sort_lexicographically_descending(data):
     return sorted(data, reverse=True)
 
-# Function to save filtered data to a text file
-def save_filtered_data(filtered_data, output_file_path):
-    with open(output_file_path, 'w') as file:
+# Function to save filtered data to the same file
+def save_to_same_file(filtered_data, file_path):
+    with open(file_path, 'w') as file:
         for entry in filtered_data:
             file.write(entry + '\n')
 
@@ -84,8 +84,7 @@ def main():
     data = remove_duplicate_lines(data)
     filtered_data = filter_bangladeshi_names(data)
     filtered_data = sort_lexicographically_descending(filtered_data)
-    output_file_path = input("Enter the path to save the filtered data: ").strip()
-    save_filtered_data(filtered_data, output_file_path)
+    save_to_same_file(filtered_data, file_path)
     print("Filtered data saved successfully!")
 
 # Execute the main function
