@@ -12,7 +12,7 @@ WHITE = "\33[1;97m"
 RED = "\33[1;91m"
 BLUE = "\33[1;97m"
 CYAN = "\33[1;97m"
-X = f"{GREEN}[\33[1;91m~{GREEN}]"
+X = f"{WHITE}[\33[1;91m~{WHITE}]"
 
 # LINE
 line = "\33[1;94m═" * 40
@@ -67,7 +67,7 @@ def save_filtered_data(filtered_data, output_file_path):
 def main():
     sys.stdout.write('\x1b]2; INCEPTION \x07')
     line = f"{WHITE}━" * 40
-    X = f"{GREEN}[\33[1;91m~{GREEN}]"
+    X = f"{WHITE}[\33[1;91m~{WHITE}]"
     def linex(): print(line)
     def clear(): os.system("clear"); print(logo)
     clear()  # Clear the screen and print the logo
