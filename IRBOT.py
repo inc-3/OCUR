@@ -17,15 +17,15 @@ X = f"{GREEN}[\33[1;91m~{GREEN}]"
 # LINE
 line = "\33[1;94m═" * 40
 logo = f"""
-{GREEN}
+{WHITE}
 ▀█▀ ░█▄─░█ ░█▀▀█ █▀▀█ 
 ░█─ ░█░█░█ ░█─── ──▀▄ 
 ▄█▄ ░█──▀█ ░█▄▄█ █▄▄█
 
 {line}
-{GREEN}[\33[1;91m~{GREEN}] AUTHOR    {WHITE}  : {GREEN}NIROB RAHMAN
-{GREEN}[\33[1;91m~{GREEN}] VERSION    {WHITE} : {GREEN}V{WHITE}/{CYAN}0.1
-{GREEN}[\33[1;91m~{GREEN}] FEATURE{WHITE}     :{GREEN} FILE {RED}X {GREEN}RANDOM
+{GREEN}[\33[1;91m~{GREEN}] AUTHOR    {WHITE}  : {GREEN}INCEPTION
+{GREEN}[\33[1;91m~{GREEN}] VERSION    {WHITE} : {RED}BETA
+{GREEN}[\33[1;91m~{GREEN}] FEATURE{WHITE}     :{GREEN} OUT C UID RMVR
 {line}
 """
 
