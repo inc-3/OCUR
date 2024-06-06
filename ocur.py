@@ -88,6 +88,9 @@ def main():
     if isinstance(file_paths, str):  # If a single custom file path is provided
         file_paths = [file_paths]
     for file_path in file_paths:
+        if not os.path.exists(file_path):
+            print(f"File not found: {file_path}")
+            continue
         data = read_data_from_file(file_path)
         data = remove_duplicate_lines(data)
         filtered_data = filter_bangladeshi_names(data)
