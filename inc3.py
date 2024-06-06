@@ -1,3 +1,3 @@
 import os
 os.system('git pull')
-os.system('python IRBOT.py')
+os.system('python ocur.py')
