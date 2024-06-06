@@ -33,18 +33,28 @@ def is_bangladeshi(name):
 def filter_bangladeshi_names(data):
     filtered_data = []
     for entry in data:
-        number, name = entry.split('|')
-        if is_bangladeshi(name):
-            filtered_data.append(entry)
+        if '|' in entry:
+            number, name = entry.split('|', 1)  # Split only at the first occurrence of '|'
+            if is_bangladeshi(name):
+                filtered_data.append(entry)
+        else:
+            print(f"Ignoring line: {entry} (Does not contain expected format)")
     return filtered_data
+
+# Function to save filtered data to a text file
+def save_filtered_data(filtered_data, output_file_path):
+    with open(output_file_path, 'w') as file:
+        for entry in filtered_data:
+            file.write(entry + '\n')
 
 # Main function
 def main():
     file_path = input_file_path()
     data = read_data_from_file(file_path)
     filtered_data = filter_bangladeshi_names(data)
-    for entry in filtered_data:
-        print(entry)
+    output_file_path = input("Enter the path to save the filtered data: ").strip()
+    save_filtered_data(filtered_data, output_file_path)
+    print("Filtered data saved successfully!")
 
 # Execute the main function
 if __name__ == "__main__":
