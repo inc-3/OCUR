@@ -10,8 +10,8 @@ from BD import common_bangladeshi_names
 GREEN = "\33[38;5;46m"
 WHITE = "\33[1;97m"
 RED = "\33[1;91m"
-BLUE = "\33[1;94m"
-CYAN = "\33[1;96m"
+BLUE = "\33[1;97m"
+CYAN = "\33[1;97m"
 X = f"{GREEN}[\33[1;91m~{GREEN}]"
 
 # LINE
