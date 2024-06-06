@@ -1,2 +1,2 @@
 import os
-os.system('gitt pull')
+os.system('git pull')
