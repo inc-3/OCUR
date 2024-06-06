@@ -37,7 +37,12 @@ def read_data_from_file(file_path):
 
 # Function to prompt user to input file path
 def input_file_path():
-    return input("Enter the path to your file: ").strip()
+    custom_path = input("Would you like to input a custom file path? (yes/no): ").strip().lower()
+    if custom_path == 'yes':
+        return input("Enter the path to your file: ").strip()
+    else:
+        return ['/sdcard/1.txt', '/sdcard/2.txt', '/sdcard/3.txt', '/sdcard/4.txt',
+                '/sdcard/5.txt', '/sdcard/6.txt', '/sdcard/7.txt', '/sdcard/8.txt']
 
 def is_bangladeshi(name):
     # Define a regex pattern for Bengali characters
@@ -79,13 +84,16 @@ def main():
     def linex(): print(line)
     def clear(): os.system("clear"); print(logo)
     clear()  # Clear the screen and print the logo
-    file_path = input_file_path()
-    data = read_data_from_file(file_path)
-    data = remove_duplicate_lines(data)
-    filtered_data = filter_bangladeshi_names(data)
-    filtered_data = sort_lexicographically_descending(filtered_data)
-    save_to_same_file(filtered_data, file_path)
-    print("Filtered data saved successfully!")
+    file_paths = input_file_path()
+    if isinstance(file_paths, str):  # If a single custom file path is provided
+        file_paths = [file_paths]
+    for file_path in file_paths:
+        data = read_data_from_file(file_path)
+        data = remove_duplicate_lines(data)
+        filtered_data = filter_bangladeshi_names(data)
+        filtered_data = sort_lexicographically_descending(filtered_data)
+        save_to_same_file(filtered_data, file_path)
+        print(f"Filtered data saved successfully for {file_path}!")
 
 # Execute the main function
 if __name__ == "__main__":
