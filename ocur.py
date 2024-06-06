@@ -37,8 +37,8 @@ def read_data_from_file(file_path):
 
 # Function to prompt user to input file path
 def input_file_path():
-    custom_path = input("Would you like to input a custom file path? (yes/no): ").strip().lower()
-    if custom_path == 'yes':
+    custom_path = input("Would you like to input a custom file path? (y/n): ").strip().lower()
+    if custom_path == 'y':
         return input("Enter the path to your file: ").strip()
     else:
         return ['/sdcard/1.txt', '/sdcard/2.txt', '/sdcard/3.txt', '/sdcard/4.txt',
