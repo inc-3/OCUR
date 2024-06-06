@@ -1,8 +1,34 @@
 import os
 import re
+import bs4
+from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup as sop
+#━━━[ COLOUR ]━━━#
+GREEN="\33[38;5;46m"
+WHITE="\33[1;97m"
+RED="\33[1;91m"
+BLUE="\33[1;94m"
+CYAN="\33[1;96m"
+X=f"{GREEN}[\33[1;91m~{GREEN}]"
+#━━━[ <<>> ]━━━#
+line="\33[1;94m═"*40
+logo = f"""{GREEN}  
 
-os.system('clear')
+▀█▀ ░█▄─░█ ░█▀▀█ █▀▀█ 
+░█─ ░█░█░█ ░█─── ──▀▄ 
+▄█▄ ░█──▀█ ░█▄▄█ █▄▄█
 
+{line}
+{GREEN}[\33[1;91m~{GREEN}] AUTHOR    {WHITE}  : {GREEN}NIROB RAHMAN
+{GREEN}[\33[1;91m~{GREEN}] VERSION    {WHITE} : {GREEN}V{WHITE}/{CYAN}0.1
+{GREEN}[\33[1;91m~{GREEN}] FEATURE{WHITE}     :{GREEN} FILE {RED}X {GREEN}RANDOM
+{line}"""
+#━━━[ LINE-X ]━━━#
+sys.stdout.write('\x1b]2; NIROB~XD \x07')
+line=f"{BLUE}━"*40
+X=f"{GREEN}[\33[1;91m~{GREEN}]"
+def linex():print(line)
+def clear():os.system("clear");print(logo)
 # Function to read data from a file
 def read_data_from_file(file_path):
     with open(file_path, 'r') as file:
