@@ -1,10 +1,7 @@
-#original code write by INCEPTION
 import os
 import sys
 import re
-import bs4
 from bs4 import BeautifulSoup
-from bs4 import BeautifulSoup as sop
 from BD import common_bangladeshi_names
 
 # COLOURS
@@ -25,8 +22,8 @@ logo = f"""
 
 {line}
 {WHITE}[\33[1;91m~{WHITE}] AUTHOR    {WHITE}  : {GREEN}INCEPTION
-{WHITE}[\33[1;91m~{WHITE}] VERSION    {WHITE} : {RED}BETA
-{WHITE[\33[1;91m~{WHITE}] FEATURE{WHITE}     :{WHITE} OUT C UID RMVR
+{WHITE}[\33[1;91m~{WHITE}] VERSION   {WHITE} : {RED}BETA
+{WHITE}[\33[1;91m~{WHITE}] FEATURE   {WHITE} : {WHITE} OUT C UID RMVR
 {line}
 """
 
