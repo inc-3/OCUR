@@ -10,7 +10,7 @@ common_bangladeshi_names = {
     "Razib", "Khairul", "Rafat", "Arafat", "Mahbub", "Nizam", "Biplab", "Pavel", "Arman", "Bijoy", "Shanto", "Hasib", 
     "Ranjan", "Masum", "Liton", "Shamim", "Nazim", "Tuhin", "Arman", "Forhad", "Sakif", "Jabed", "Shakir", "Rifat", 
     "Rakib", "Muntasir", "Biplob", "Tuhin", "Rabbi", "Rab", "Sourav", "Jony", "Partha", "Pavel", "Sohan", "Ratul", 
-    "Rabiul", "Rifat", "Mizanur", "Jahid", "Alamin", "Tanjim", "Mahir", "Sajal", "Rifat", "Ratul", 
+    "Rabiul", "Rifat", "Mizanur", "Jahid", "Alamin", "Tanjim", "Mahir", "Sajal", "Rifat", "Ratul", "kalam", 
     "Sarwar", "Shihab", "Rajon", "Jamil", "Rasel", "Ahsan", "Maruf", "Tanveer", "Sajjad", "Rifat", "Saiful", "Shohel", 
     "Tuhin", "Anik", "Shuvo", "Ridoy", "Arafat", "Saif", "Hasib", "Bipul", "Jewel", "Sakib", "Sahed", "Sujon", "Mehedi", 
     "Rafat", "Sakib", "Shihab", "Shamim", "Siam", "Munim", "Sharif", "Rana", "Shamim", "Rana", "Kawsar", "Mahmud", "Akash", 
@@ -33,7 +33,7 @@ common_bangladeshi_names = {
     "Alifa", "Afifa", "Afsana", "Tithi", "Tumpa", "Sarika", "Munia", "Samira",
     "Moriom", "Tanjina", "Shukria", "Rifa", "Rabeya", "Tahmina", "Jahanara", "Ayesha", "Fatima",
     "Mariam", "Nasrin", "Sabina", "Taslima", "Farzana", "Sharmin", "Rehana", "Suraiya", "Shahnaz",
-    "Shahana", "Nusrat", "Sumaiya", "Shabnam", "Md", "Jannat", "Nusrat", "Jahan", "Sex", "Ewr", "Ahmed", "Ali", "Akhtar", "Aktar", "Alam", "Azad", "Begum", "Talukdar", "Uddin", "Yusuf", "Molla", "Islam", "Rahman", "Hossain", "Khatun", "Haque", "Dewan", "Siddiqui", "Karim", "Banu", "Tasnim", "Nasrin",
+    "Shahana", "Nusrat", "Sumaiya", "Shabnam", "Md", "Nusrat", "Jahan", "Sex", "Ewr", "Ahmed", "Ali", "Akhtar", "Aktar", "Alam", "Azad", "Begum", "Talukdar", "Uddin", "Yusuf", "Molla", "Islam", "Rahman", "Hossain", "Khatun", "Haque", "Dewan", "Siddiqui", "Karim", "Banu", "Tasnim", "Nasrin",
     "Afroza", "Jahan", "Parvin", "Fatima", "Rima", "Sharmin", "Akhtar", "Chowdhury", "Yasmeen",
     "Rahman", "Ali", "Khatoon", "Yasmin", "Khanum", "Laila", "Hossain", "Munira", "Shahida", "Sultana",
     "Jahanara", "Farzana", "Kohinoor", "Nahar", "Choudhury", "Nasima", "Islam", "Begum", "Khadiza",
@@ -51,6 +51,6 @@ common_bangladeshi_names = {
     "Sarker", "Mia", "Rashid", "Farooqi", "Hussain", "Shah", "Chowdhury", "Reza", "Chowdhury", "Kabir",
     "Alam", "Nasir", "Islam", "Chowdhury", "Ali", "Siddique", "Chowdhury", "Mahmood", "Rahman", "Ali",
     "Ahmed", "Khan", "Hasan", "Hossain", "Islam", "Chowdhury", "Hussain", "Uddin", "Miah", "Akhtar",
-    "Siddiqui", "Karim", "Mia", "Chowdhury", "Ahmed", "Haque", "Khanam", "Akter", "Sardar", "Sarker"
+    "Siddiqui", "Karim", "Mia", "Chowdhury", "Ahmed", "Haque", "Khanam", "Akter", "Sardar", "Sarker", "Mst", "Akter", "Umma", "Umme", "Jui", "Angel", "Angal", "Ibnat", "Moni", "Akhter", "Khatun", "Meghla", "Khanom"
     # Add more common names as needed
 }
