@@ -21,8 +21,8 @@ logo = f"""
 ▄█▄ ░█──▀█ ░█▄▄█ █▄▄█
 
 {line}
-{WHITE}[\33[1;91m~{WHITE}] AUTHOR    {WHITE}  : {GREEN}INCEPTION
-{WHITE}[\33[1;91m~{WHITE}] VERSION   {WHITE} : {RED}BETA
+{WHITE}[\33[1;91m~{WHITE}] AUTHOR    {WHITE} : {GREEN}INCEPTION
+{WHITE}[\33[1;91m~{WHITE}] VERSION   {WHITE} :  {RED}BETA
 {WHITE}[\33[1;91m~{WHITE}] FEATURE   {WHITE} : {WHITE} OUT C UID RMVR
 {line}
 """
