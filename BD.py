@@ -1,4 +1,4 @@
-bdn = [
+bdn = {
     "Md", "Md.", "Sk", "Amin", "Emran", "Rana", "Riad", "Shagor", "Kawsar", "Anis", "Ashraf", "Akbar", "Alim", 
     "Arif", "Azim", "Bashir", "Babar", "Badrul", "Baki", "Belal", "Bodi", "Bulbul", "Chowdhury", "Daud", "Dulal", 
     "Emon", "Enamul", "Fahim", "Farhad", "Faisal", "Ferdous", "Gafur", "Gazi", "Habib", "Hasib", "Hasan", "Helal", 
@@ -70,4 +70,4 @@ bdn = [
     "Zubair", "Nazrul", "Rashedul", "Zakir", "Aftab", "Anwarul", "Asad", "Fazle", "Khorshed", 
     "Lokman", "Ishraq", "Touhidur", "Hassanuzzaman", "Nusratullah", "Tayef", "Tawfiq", "Zahedul", 
     "Shojib", "Abdulahi", "Shawkat", "Sadat", "Zahidur", "Hossainul", "Adnan", "Tarek", "Saeed"
-]
+}
