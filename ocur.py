@@ -45,9 +45,9 @@ def input_file_path():
 
 def is_bangladeshi(name):
     # Define a regex pattern for Bengali characters
-    #bengali_pattern = re.compile("[\u0980-\u09FF]")
+    bengali_pattern = re.compile("[\u0980-\u09FF]")
     # Check if the name contains Bengali characters or is in the common Bangladeshi names set
-    return any(common_name in name for common_name in common_bangladeshi_names)
+    return bool(bengali_pattern.search(name)) or any(common_name in name for common_name in common_bangladeshi_names)
 
 # Function to filter out non-Bangladeshi names
 def filter_bangladeshi_names(data):
@@ -93,7 +93,7 @@ def main():
         data = read_data_from_file(file_path)
         data = remove_duplicate_lines(data)
         filtered_data = filter_bangladeshi_names(data)
-        filtered_data = sort_lexicographically_descending(filtered_data)
+        #filtered_data = sort_lexicographically_descending(filtered_data)
         save_to_same_file(filtered_data, file_path)
         print(f"Filtered data saved successfully for {file_path}!")
 
