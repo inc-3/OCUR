@@ -1,4 +1,4 @@
-common_bangladeshi_names = [
+bdn = [
     "Md", "Md.", "Sk", "Amin", "Emran", "Rana", "Riad", "Shagor", "Kawsar", "Anis", "Ashraf", "Akbar", "Alim", 
     "Arif", "Azim", "Bashir", "Babar", "Badrul", "Baki", "Belal", "Bodi", "Bulbul", "Chowdhury", "Daud", "Dulal", 
     "Emon", "Enamul", "Fahim", "Farhad", "Faisal", "Ferdous", "Gafur", "Gazi", "Habib", "Hasib", "Hasan", "Helal", 
